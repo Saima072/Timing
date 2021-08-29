@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shugal.timing.MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#E29689"
+    >
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Timing App"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:paddingTop="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:text="Pehla Button"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:id="@+id/b1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="40dp"
+        android:text="Dosra Button"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:id="@+id/b2"
+        />
+
+</LinearLayout>
